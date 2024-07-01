@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/chocolate-ice-cream-icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.n6suO3Xpayppw2GamN9Q0AAAAA?w=208&h=208&c=7&r=0&o=5&pid=1.7">
+    <title>Magnum Ice Cream</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="https://www.magnumicecream.com/us/en/stories/recipes.html" target="_blank" class="logo"><img src="./images/logo.png" class="logo" width="100px" height="100px" alt="Magnum logo"></a>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's Not Just A Ice Cream<br>It's <span>Magnum Choclate</span></h2>
+                <p>Ice cream is derived from earlier iced cream or cream ice and it is a sugared foodstuff generally consumed as a snack or sweet. It should be made of dairy farm milk or cream, or soy, cashew, coconut or almond milk, and is seasoned with a sweetener, either sugar or another, and any spice, like cocoa or vanilla. Colourings area unit typically else, additionally to stabilizers.</p>
+                <a href="https://www.magnumicecream.com/us/en/home.html" target="_blank">Learn More</a>
+            </div>
+                <div class="img-box">
+                    <img src="./images/chocolate-ice-cream.png" class="magnum" width="600" height="550" alt="">
+                </div>               
+            </div>
+        </div>
+        <ul class="ice">
+            <li><img src="./images/cho.png" onclick="imgSlider('./images/img1.png');changeCircleColor('red')" alt=""></li>
+            <li><img src="./images/ice cream.png" onclick="imgSlider('./images/img2.png');changeCircleColor('blue')" alt=""></li>
+            <li><img src="./images/ice-cream-picture-thumb.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1')" alt=""></li>
+        </ul>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="facebook logo"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="instagram logo"></a></li>
+            <li><a href="https://x.com/@X?mx=2" target="_blank"><img src="./images/twitter.png" alt="twitter logo"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.magnum').src =anything;
+        }
+        function changeCircleColor(color){
+            const circe = document.querySelector('.circle');
+            circe.style.background = color
+        }
+    </script>
+</body>
+</html> 
