@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="https://img.freepik.com/free-vector/organic-sign-with-plums_1308-29201.jpg?t=st=1716796368~exp=1716799968~hmac=5f5af0315abf06926ad3e14ef532b5e30d748473aee72f6f40b030f1e4448305&w=1380" alt="Company Logo" id="header-img"/></a>
+        <nav id="nav-link">
+          <a href="#home-sec" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://img.freepik.com/free-photo/grape-isolated-white-background_144627-10543.jpg?size=626&ext=jpg&ga=GA1.1.1689899131.1716786815&semt=ais_user" alt="Image of Grapes" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Crispy, Heavenly.</h1>
+          <h2>
+            100% Organic, vivid varieties of grapes grown in Nashik aka Wine Capital of India.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+            <img src="https://media.istockphoto.com/id/1281427223/photo/bearded-winemaker-cutting-grapes-with-prunes-during-harvest.jpg?s=612x612&w=0&k=20&c=4WVptIv1G_DMn9Ohtrl4y81ADYsE3qks5vkyCwYsfII=" alt="A man plucking apples from the tree" />
+          <p>Welcome to our Grape Garden, where we grow and sell the finest grapes from the renowned grape paradise of Nashik. With decades of expertise in viticulture, our team ensures that every grape we cultivate meets the highest standards of quality and taste.Nestled in Nashik, famously known as the "Paradise of Earth" for its temperate climate and fertile loamy soil, our vineyard benefits from ideal conditions for grape cultivation. The region's rich organic soil, coupled with excellent drainage and aeration, creates a perfect environment for our grapevines to thrive.</p>
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+            <div class="tile">
+                <img src="./concord.jpg" alt="photo of concord grape">
+                <h4>Concord</h4>
+                <p>Concord grapes are used to make pie, jam, juice and to flavored candy. Concord grapes are also often used to make Kosher wine.Concords are in season, from September through late October.</p>
+            </div>
+            <div class="tile">
+                <img src="./Moon Drop.jpg" alt="photo of Moon Drop grape">
+                <h4>Moon Drop</h4>
+                <p>The long, dark purple-blue grapes that look a little like a finger are called Moon Drop, or Witch's Finger.</p>
+            </div>
+            <div class="tile">
+                <img src="./Canadice grape.jpg" alt="photo of canadice grape">
+                <h4>Canadice</h4>
+                <p>Canadice is a cultivar of seedless red grape with a bit of a spicy flavor. It is a late season cultivar ripening about mid-September into October</p>
+            </div>
+            <div class="tile">
+                <img src="./Niagara.jpg" alt="photo of niagara grape">
+                <h4>Niagara</h4>
+                <p>The flavor of the Niagara grape is jammy, with floral notes and a lemon rind twist. It's sometimes used for wine, but mainly this variety is turned in to jelly or juice.</p>
+            </div>
+            <div class="tile">
+                <img src="./Cotton Candy.jpg" alt="photo of cotton candy grape">
+                <h4>Cotton Candy</h4>
+                <p>The Cotton Candy is a juicy, sweet, candy-like and limited-time grape.Cotton Candy grapes are cross-bred naturally on the vines.</p>
+            </div>
+            <div class="tile">
+                <img src="./Crimson Seedless.jpg" alt="photo of crimson seedless grape">
+                <h4>Crimson Seedless</h4>
+                <p>Crimson grapes are the most common and popular type of red grapes. Their colours range from dark pink to red and they offer an extremely sweet and juicy experience.</p>
+            </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe width="704" height="396" src="https://www.youtube.com/embed/mtIPldl8Mk8" title="GRAPE BENEFITS  - 16 Impressive Health Benefits of Grapes!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST" >
+            <input type="email" name="email" id="email" placeholder="Your Email Address" required/>
+            <input type="submit" class="btn" id="submit" value="Know More"/>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
